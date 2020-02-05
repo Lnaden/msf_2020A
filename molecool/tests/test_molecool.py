@@ -12,4 +12,4 @@ def test_molecool_imported():
     assert "molecool" in sys.modules
 
 def test_waffles_have_syrup():
-    assert "Syrup" in "wafles"
+    assert "Syrup" in "wafles with Syrup"
