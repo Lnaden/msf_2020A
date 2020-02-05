@@ -42,7 +42,7 @@ install:
 
 
 script:
-  - pytest -v --cov=molecool molecool/tests/
+  - pytest -v --cov=molecool molecool/tests/  
 
 notifications:
     email: false
