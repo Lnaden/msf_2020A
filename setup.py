@@ -1,6 +1,8 @@
 """
 molecool
 A python package for the MSF 2020A Bootcamp.
+
+A change
 """
 import sys
 from setuptools import setup, find_packages
@@ -46,7 +48,7 @@ setup(
 
     # Additional entries you may want simply uncomment the lines you want and fill in the data
     # url='http://www.my_package.com',  # Website
-    # install_requires=[],              # Required packages, pulls from pip if needed; do not use for Conda deployment
+    install_requires=['numpy'],              # Required packages, pulls from pip if needed; do not use for Conda deployment
     # platforms=['Linux',
     #            'Mac OS-X',
     #            'Unix',
